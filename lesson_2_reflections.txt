@@ -15,6 +15,7 @@ You can use the staging area to start adding files that you know you have made a
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+When you want to add a new (untested feature) and want to keep the main one clean…really when you just want to try anything new and wish to create a different version (want to test it first) and how a clean version ready for deploy if necessary. All these are helped by branched by allowed you to keep the main branch clean while still allowed you to “Branch off” into your new endeavors to try something out without the concern of killing off some good piece of working code (i.e. the Master)
 
 How do the diagrams help you visualize the branch structure?
 
