@@ -11,6 +11,7 @@ This gives finer control over what you want in a the repository.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+You can use the staging area to start adding files that you know you have made a logical change to. Now, you have a point of comparison using git diff and git diff —staged to compare to working directory and to repository. (Pretty awesome!!!) If you notice changes, then you can reconsider what is a logical change or commit what you have in staging area first before adding more to the staging area.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
