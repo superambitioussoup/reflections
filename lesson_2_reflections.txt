@@ -24,5 +24,8 @@ What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 Merged branches result in a new tip that can reach all of the previous commits in either of the branch and thus can be represented in the diagram as a single point with arrows that point back down both branches. 
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+Automatic merging saves us a lot of time compared to manual merges and clearly points out possible conflicts.
+
+Of course you lose a bit of control over your merges (automatic simply does a compare of what you are merging and assumes if nothing has changed in a general area then it should be kept but if something has then it needs to bring it up to the user). A bit of dumb but for small incremental changes, should be easy?
