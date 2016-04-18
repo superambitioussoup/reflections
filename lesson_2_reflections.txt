@@ -18,6 +18,7 @@ organized? How would branches help?
 When you want to add a new (untested feature) and want to keep the main one clean…really when you just want to try anything new and wish to create a different version (want to test it first) and how a clean version ready for deploy if necessary. All these are helped by branched by allowed you to keep the main branch clean while still allowed you to “Branch off” into your new endeavors to try something out without the concern of killing off some good piece of working code (i.e. the Master)
 
 How do the diagrams help you visualize the branch structure?
+The diagrams show the various branches and their branches (how one commits links back to previous branches) and really drives home the idea that some nodes can get lost (if they don’t have a branch name).
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
