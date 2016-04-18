@@ -1,0 +1,76 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Knowing that the previous file worked, I can reasonably assume that a 
+    change from the old file to the new file resulted in the bug. Therefore
+    diff highlights those differences allowing me to more efficiently pinpoint
+    potential bugs.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Well...like they said...those who forget the past are doomed to repeat it.
+    With the entire history of the file, I have a better idea of what I have 
+    tried in the past and gives me a trajetctory of where I can move forward.
+    Furthermore, being able to go back into the past means I can easily try
+    out things now without the fear of losing a previous workable state of my
+    file.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    User error - You might not do it often enough such that you either get huge 
+    chunks of changes or might even get lazy about it and not check in at all
+    until the last minute. (This can be avoided with automatic version control)
+
+    But more meaningful. No automatic versions can full capture meaningful set
+    of changes in a given commit. It would most of the time gather too many
+    unrelated changes or spread out one feature change over multiple commits 
+    (and who knows if going back to one of these commits would be useful)
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Perhaps it ultimately depends on what the creater intended what the use is 
+    of the control system. Something like GIT which I assume is largely code
+    heavy often invovles code separately across different files and so allowing
+    commits across multiple files breeds this idea of conceptual logical 
+    changes.
+
+    With something like Google Docs, ultimately you are effecting one DOC and
+    very likely, there are no dependencies across different docs (unless they
+    are manually created I guess) and so it doesn't really make sense.
+
+    (I guess it boils down to where to drawn the conceptual unit. Google Docs
+    draws it at a given doc while I guess with GIT it is the program and 
+    knowingly a program can be spread across multiple files, then GIT should
+    be capable of supporting multiple file commit to be useful as a version
+    control system for code)
+
+How can you use the commands git log and git diff to view the history of files?
+
+	Git log definitely helps to give a great overview of the changes/evolution 
+	of your code (assuming you make good descriptive comments and make frequent 
+	enough commits)
+
+	And use of git diff in combination can help then tell about specifics about 
+	what you did thus given a more detailed history of the files.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Now that we always have the ability to essentially turn back the clock, 
+    you really should have no reservation about making changes that could
+    potentially break something. It is just like in a game that allows you
+    to save at any point in time. If you feel like you are about lose in the
+    game if you take one step further, you can save where you are at in the 
+    game and if  you end up losing, you can always go back to your save point
+    and make a different choice. With version control, you can go back and
+    restore your code back to where it was before you made those breaking
+    changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Not sure...maybe some android coding projects...or python code...options 
+    are indeed endless.
