@@ -8,7 +8,7 @@ opposed to having everyone access your own local computer???
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+Well you may not what the changes present on the remote repository (someone else made changes or you might have put it in a bad state?). And when would you automatically stay up-to-date? Every commit? What if that conflicts with what you are working on currently locally?
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
