@@ -13,7 +13,11 @@ Well you may not what the changes present on the remote repository (someone else
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+Branches are local and represent when a “Deviation” or “Change” from the “main” code.
+
+Clones is a complete copy of a repository and can be local only or local and GitHub.
+
+Forks on the other hand is GitHub’s version of clone  for local. So end result is two copies of the same repository (I guess except the forked repository has reference back to the original repository if need be)
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
